@@ -17,6 +17,7 @@
 		DB14296025BB6CE70084BE5C /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14295F25BB6CE70084BE5C /* Framework.swift */; };
 		DB14296525BB6EBB0084BE5C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14296425BB6EBB0084BE5C /* FrameworkGridView.swift */; };
 		DB14296D25BB6F4C0084BE5C /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14296C25BB6F4C0084BE5C /* FrameworkTitleView.swift */; };
+		DB14297625BB76870084BE5C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14297525BB76870084BE5C /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DB14295F25BB6CE70084BE5C /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		DB14296425BB6EBB0084BE5C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		DB14296C25BB6F4C0084BE5C /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		DB14297525BB76870084BE5C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +105,15 @@
 		DB14292B25BB5EFE0084BE5C /* Apple-Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB14297D25BB769B0084BE5C /* models */,
+				DB14297425BB76700084BE5C /* views */,
 				DB14292C25BB5EFE0084BE5C /* Apple_FrameworksApp.swift */,
 				DB14293025BB5F010084BE5C /* Assets.xcassets */,
 				DB14293525BB5F010084BE5C /* Persistence.swift */,
 				DB14293A25BB5F010084BE5C /* Info.plist */,
 				DB14293725BB5F010084BE5C /* Apple_Frameworks.xcdatamodeld */,
 				DB14293225BB5F010084BE5C /* Preview Content */,
-				DB14295F25BB6CE70084BE5C /* Framework.swift */,
 				DB14296425BB6EBB0084BE5C /* FrameworkGridView.swift */,
-				DB14296C25BB6F4C0084BE5C /* FrameworkTitleView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -140,6 +142,23 @@
 				DB14295025BB5F020084BE5C /* Info.plist */,
 			);
 			path = "Apple-FrameworksUITests";
+			sourceTree = "<group>";
+		};
+		DB14297425BB76700084BE5C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DB14296C25BB6F4C0084BE5C /* FrameworkTitleView.swift */,
+				DB14297525BB76870084BE5C /* BackgroundView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DB14297D25BB769B0084BE5C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DB14295F25BB6CE70084BE5C /* Framework.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +293,7 @@
 				DB14293625BB5F010084BE5C /* Persistence.swift in Sources */,
 				DB14292D25BB5EFE0084BE5C /* Apple_FrameworksApp.swift in Sources */,
 				DB14296525BB6EBB0084BE5C /* FrameworkGridView.swift in Sources */,
+				DB14297625BB76870084BE5C /* BackgroundView.swift in Sources */,
 				DB14296D25BB6F4C0084BE5C /* FrameworkTitleView.swift in Sources */,
 				DB14296025BB6CE70084BE5C /* Framework.swift in Sources */,
 				DB14293925BB5F010084BE5C /* Apple_Frameworks.xcdatamodeld in Sources */,

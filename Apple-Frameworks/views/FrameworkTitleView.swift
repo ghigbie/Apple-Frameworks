@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FrameworkTitleView: View {
-    var title: String = "Test Title"
+    var name: String = "Test Title"
     var imageName: String = "app-clip"
     
     var body: some View {
@@ -17,7 +17,7 @@ struct FrameworkTitleView: View {
                 .resizable()
                 .frame(width: 90, height: 90)
                 
-            Text(title)
+            Text(name)
                 .font(.title2)
                 .fontWeight(.bold)
                 .scaledToFit()

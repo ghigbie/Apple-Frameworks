@@ -18,6 +18,7 @@
 		DB14296525BB6EBB0084BE5C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14296425BB6EBB0084BE5C /* FrameworkGridView.swift */; };
 		DB14296D25BB6F4C0084BE5C /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14296C25BB6F4C0084BE5C /* FrameworkTitleView.swift */; };
 		DB14297625BB76870084BE5C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14297525BB76870084BE5C /* BackgroundView.swift */; };
+		DB14298525BE3EB20084BE5C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14298425BE3EB20084BE5C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DB14296425BB6EBB0084BE5C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		DB14296C25BB6F4C0084BE5C /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		DB14297525BB76870084BE5C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		DB14298425BE3EB20084BE5C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,6 @@
 				DB14293A25BB5F010084BE5C /* Info.plist */,
 				DB14293725BB5F010084BE5C /* Apple_Frameworks.xcdatamodeld */,
 				DB14293225BB5F010084BE5C /* Preview Content */,
-				DB14296425BB6EBB0084BE5C /* FrameworkGridView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -148,7 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				DB14296C25BB6F4C0084BE5C /* FrameworkTitleView.swift */,
+				DB14296425BB6EBB0084BE5C /* FrameworkGridView.swift */,
 				DB14297525BB76870084BE5C /* BackgroundView.swift */,
+				DB14298425BE3EB20084BE5C /* DetailView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB14293625BB5F010084BE5C /* Persistence.swift in Sources */,
+				DB14298525BE3EB20084BE5C /* DetailView.swift in Sources */,
 				DB14292D25BB5EFE0084BE5C /* Apple_FrameworksApp.swift in Sources */,
 				DB14296525BB6EBB0084BE5C /* FrameworkGridView.swift in Sources */,
 				DB14297625BB76870084BE5C /* BackgroundView.swift in Sources */,

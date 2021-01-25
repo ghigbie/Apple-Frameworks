@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct DetailView: View {
+struct FrameworkDetailView: View {
     @Environment(\.colorScheme) var colorScheme
-    var framework: Framework = MockData.sampleFramework
+    var framework: Framework
     
     var body: some View {
         VStack{
@@ -26,6 +26,8 @@ struct DetailView: View {
             FrameworkTitleView(framework: framework)
             Spacer()
             Text(framework.description)
+                .font(.body)
+                .padding()
             Spacer()
             Button{
                 print("Do someting \(framework.name)")
@@ -42,7 +44,7 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        FrameworkDetailView(framework: MockData.sampleFramework)
            // .preferredColorScheme(.dark)
     }
 }

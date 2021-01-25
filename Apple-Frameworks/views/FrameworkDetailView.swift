@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct FrameworkDetailView: View {
-    @Environment(\.colorScheme) var colorScheme
     var framework: Framework
     
     var body: some View {
@@ -20,11 +19,13 @@ struct FrameworkDetailView: View {
                 }label: {
                     Image(systemName:"xmark")
                 }
-                .foregroundColor(colorScheme == .dark ? .white : .black)
+                .foregroundColor(Color(.label))
+                .imageScale(.large)
+                .frame(width: 44, height: 44)
             }
             Spacer()
             FrameworkTitleView(framework: framework)
-            Spacer()
+
             Text(framework.description)
                 .font(.body)
                 .padding()

@@ -8,13 +8,36 @@
 import SwiftUI
 
 struct DetailView: View {
+    var framework: Framework = MockData.sampleFramework
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack{
+                Spacer()
+                
+            }
+            Spacer()
+            FrameworkTitleView(framework: framework)
+            Spacer()
+            Text(framework.description)
+                .padding()
+            Spacer()
+            Button{
+                print("Do someting \(framework.name)")
+            }label: {
+                PrimaryButton(
+                    title: "Learn More",
+                    textColor: .white,
+                    backgroundColor: .red
+                )
+            }
+        }
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         DetailView()
+            .
     }
 }

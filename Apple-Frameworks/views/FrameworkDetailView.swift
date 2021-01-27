@@ -9,13 +9,14 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     var framework: Framework
+    @Binding var isShowingDetailView: Bool
     
     var body: some View {
         VStack{
             HStack{
                 Spacer()
                 Button(){
-                    print("Close \(framework.name)")
+                    isShowingDetailView.toggle()
                 }label: {
                     Image(systemName:"xmark")
                 }
@@ -50,7 +51,10 @@ struct FrameworkDetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetailView(framework: MockData.sampleFramework)
+        FrameworkDetailView(
+            framework: MockData.sampleFramework,
+            isShowingDetailView: .constant(false)
+        )
             .preferredColorScheme(.dark)
     }
 }

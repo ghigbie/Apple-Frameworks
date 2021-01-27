@@ -20,6 +20,7 @@
 		DB14298525BE3EB20084BE5C /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14298425BE3EB20084BE5C /* FrameworkDetailView.swift */; };
 		DB14298A25BE40ED0084BE5C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14298925BE40ED0084BE5C /* PrimaryButton.swift */; };
 		DB14299525BE45000084BE5C /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14299425BE45000084BE5C /* CloseButton.swift */; };
+		DB14299D25C0FA8A0084BE5C /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14299C25C0FA8A0084BE5C /* FrameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DB14298425BE3EB20084BE5C /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		DB14298925BE40ED0084BE5C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		DB14299425BE45000084BE5C /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		DB14299C25C0FA8A0084BE5C /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		DB14292B25BB5EFE0084BE5C /* Apple-Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB1429A125C0FA920084BE5C /* viewmodel */,
 				DB14297D25BB769B0084BE5C /* models */,
 				DB14297425BB76700084BE5C /* views */,
 				DB14292C25BB5EFE0084BE5C /* Apple_FrameworksApp.swift */,
@@ -165,6 +168,14 @@
 				DB14295F25BB6CE70084BE5C /* Framework.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		DB1429A125C0FA920084BE5C /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DB14299C25C0FA8A0084BE5C /* FrameworkGridViewModel.swift */,
+			);
+			path = viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +316,7 @@
 				DB14296025BB6CE70084BE5C /* Framework.swift in Sources */,
 				DB14298A25BE40ED0084BE5C /* PrimaryButton.swift in Sources */,
 				DB14293925BB5F010084BE5C /* Apple_Frameworks.xcdatamodeld in Sources */,
+				DB14299D25C0FA8A0084BE5C /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

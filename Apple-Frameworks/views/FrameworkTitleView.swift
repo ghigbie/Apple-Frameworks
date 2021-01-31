@@ -28,6 +28,6 @@ struct FrameworkTitleView: View {
 
 struct FrameworkTitleView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkTitleView(framework: MockData.frameworks[0])
+        FrameworkTitleView(framework: MockData.sampleFramework)
     }
 }

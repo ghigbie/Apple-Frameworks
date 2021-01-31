@@ -10,7 +10,7 @@ import SwiftUI
 final class FrameworkGridViewModel: ObservableObject {
     
     var selectedFramework: Framework?{
-        didSet{
+        didSet{ //anytime the selected framework changes, we make isShowingDetalView true
             isShowingDetailView = true
         }
     }

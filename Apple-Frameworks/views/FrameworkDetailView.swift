@@ -38,7 +38,7 @@ struct FrameworkDetailView: View {
             Spacer()
             
             Button{
-                isShowingSafariView = false
+                isShowingSafariView = true
             }label: {
                 PrimaryButton(
                     title: "Learn More",

@@ -28,9 +28,8 @@ struct FrameworkGridView: View {
                 FrameworkDetailView(
                     framework: viewModel.selectedFramework ?? MockData.sampleFramework,
                     isShowingDetailView: $viewModel.isShowingDetailView)
-            }
+            }//sheet
         }//navigation
-       // .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
 
     }
 }

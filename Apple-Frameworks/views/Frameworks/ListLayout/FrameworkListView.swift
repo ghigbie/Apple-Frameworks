@@ -20,10 +20,11 @@ struct FrameworkListView: View {
                     }
                 }//foreach
             }//list
-        }//navigation
-        
-        .navigationTitle("🍎 Frameworks")
-    }
+            .navigationTitle("🍎 Frameworks")
+        }
+        .accentColor(Color(.label))
+    }//navigation
+    
 }
 
 

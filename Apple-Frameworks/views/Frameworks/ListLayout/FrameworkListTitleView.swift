@@ -14,15 +14,16 @@ struct FrameworkListTitleView: View {
         HStack{
             Image(framework.imageName)
                 .resizable()
-                .frame(width: 90, height: 90)
+                .frame(width: 70, height: 70)
                 
             Text(framework.name)
                 .font(.title2)
                 .fontWeight(.bold)
                 .scaledToFit()
                 .minimumScaleFactor(0.5)
+                .padding()
         }//vstack
-        .padding()
+        
     }
 }
 
